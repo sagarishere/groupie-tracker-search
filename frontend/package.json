@@ -1,0 +1,42 @@
+{
+  "name": "groupie-tracker-visualizations",
+  "contributors": [
+    {
+      "name": "Sagar Yadav",
+      "email": "sagar@sagaryadav.com",
+      "url": "https://github.com/sagarishere"
+    }
+  ],
+  "description": "Groupie Tracker visualizations fetches data from an api and visualizes info about musicbands concerts",
+  "version": "1",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "nuxi": "3.6.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "@headlessui/vue": "^1.7.15",
+    "@heroicons/vue": "^2.0.18",
+    "nuxt": "^3.6.5",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@pinia/nuxt": "latest",
+    "pinia": "latest",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "@types/node": "^20.4.6",
+    "@tailwindcss/typography": "^0.5.9"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

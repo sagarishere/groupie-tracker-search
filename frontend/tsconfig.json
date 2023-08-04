@@ -1,0 +1,11 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true
+  },
+  "pages": true,
+  "types": [
+    "@pinia/nuxt"
+  ]
+}

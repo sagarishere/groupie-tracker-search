@@ -1,0 +1,10 @@
+.DS_Store
+
+// ignore .DS_Store that are in subfolders
+**/.DS_Store
+
+// ignore node_modules folder
+node_modules/
+
+// ignore node_modules folder that are in subfolders
+**/node_modules/

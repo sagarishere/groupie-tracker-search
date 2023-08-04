@@ -1,0 +1,6 @@
+node_modules
+README*
+.nu*
+.git*
+.DS_Store
+.nuxt
