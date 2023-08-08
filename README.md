@@ -23,6 +23,9 @@ go to <http://localhost>
     go run .
 ```
 
+Before running the frontend, make sure to change the `API_URL` in `frontend/stores/band.js` at line number 23 from
+`http://localhost/data` to `http://localhost:8080/data`
+
 ```bash
     cd frontend
     npm install
